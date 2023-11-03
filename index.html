@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <div id="map">Loading ... </div>
+    <div id="wrapper">
+        <h1>Places of Interest: DFW, Texas</h1>
+        <ul id="list">
+            <li><input type="button" value="Water Gardens" id="waterGardens"></li>
+            <li><input type="button" value="Six Flags" id="sixFlags"></li>
+            <li><input type="button" value="Stockyards" id="stockyards"></li>
+            <li><input type="button" value="Cowboy's Stadium" id="cowboysStadium"></li>
+            <li><input type="button" value="Fair Grounds" id="fairGrounds"></li>
+            <li><input type="button" value="7th Street" id="7thStreet"></li>
+            <li><input type="button" value="Carrollton" id="newKoreaTown"></li>
+            <li><input type="button" value="DFW" id="resetBtn"></li>
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
