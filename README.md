@@ -1,3 +1,4 @@
+![Screenshot of the Map App](images/map.png)
 # co-project14-Map
  Map for project 14 for Correlation One
 
