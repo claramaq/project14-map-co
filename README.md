@@ -1,5 +1,5 @@
 ![Screenshot of the Map App](images/map.png)
-# co-project14-Map
+# Project 14 - DFW Areas of Interest Map
  Map for project 14 for Correlation One
 
 ## To Do
